@@ -1,5 +1,5 @@
 [project]
-name = "uv-docker"
+name = "cmi2"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -16,10 +16,10 @@ dependencies = [
     "seaborn>=0.13.2",
     "matplotlib>=3.9.2",
     # torchを使う際は、以下のコメントアウトを解除
-    "torch==2.4.0+cu121; sys_platform == 'linux' and platform_machine == 'x86_64'",
-    "torch==2.4.0; sys_platform == 'darwin' or (sys_platform == 'linux' and platform_machine == 'aarch64')",
-    "torchvision==0.19.0+cu121; sys_platform == 'linux' and platform_machine == 'x86_64'",
-    "torchvision==0.19.0; sys_platform == 'darwin' or (sys_platform == 'linux' and platform_machine == 'aarch64')",
+    # "torch==2.4.0+cu121; sys_platform == 'linux' and platform_machine == 'x86_64'",
+    # "torch==2.4.0; sys_platform == 'darwin' or (sys_platform == 'linux' and platform_machine == 'aarch64')",
+    # "torchvision==0.19.0+cu121; sys_platform == 'linux' and platform_machine == 'x86_64'",
+    # "torchvision==0.19.0; sys_platform == 'darwin' or (sys_platform == 'linux' and platform_machine == 'aarch64')",
 ]
 
 [build-system]
